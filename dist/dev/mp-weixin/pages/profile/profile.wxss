@@ -1,0 +1,171 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/index.js??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./src/pages/profile/profile.vue?vue&type=style&index=0&id=60cb334c&scoped=true&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+.container.data-v-60cb334c {
+	min-height: 100vh;
+	background: #F5F5F5;
+}
+
+/* 未登录状态样式 */
+.login-section.data-v-60cb334c {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	padding: 0 60rpx;
+}
+.login-content.data-v-60cb334c {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #FFFFFF;
+	border-radius: 30rpx;
+	padding: 80rpx 60rpx;
+	box-shadow: 0 8rpx 30rpx rgba(0, 0, 0, 0.1);
+}
+.login-icon.data-v-60cb334c {
+	font-size: 120rpx;
+	margin-bottom: 40rpx;
+	opacity: 0.8;
+}
+.login-title.data-v-60cb334c {
+	font-size: 36rpx;
+	font-weight: 600;
+	color: #333333;
+	margin-bottom: 20rpx;
+}
+.login-desc.data-v-60cb334c {
+	font-size: 26rpx;
+	color: #666666;
+	text-align: center;
+	line-height: 1.5;
+	margin-bottom: 60rpx;
+}
+.login-btn.data-v-60cb334c {
+	background: linear-gradient(135deg, #007AFF, #5856D6);
+	border: none;
+	border-radius: 50rpx;
+	padding: 25rpx 80rpx;
+	width: 100%;
+	max-width: 400rpx;
+}
+.login-btn-text.data-v-60cb334c {
+	font-size: 30rpx;
+	color: #FFFFFF;
+	font-weight: 600;
+}
+
+/* 已登录状态样式 */
+.profile-section.data-v-60cb334c {
+	padding: 40rpx 30rpx;
+}
+.profile-header.data-v-60cb334c {
+	background: #FFFFFF;
+	border-radius: 25rpx;
+	margin-bottom: 30rpx;
+	overflow: hidden;
+	box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.08);
+}
+.profile-info.data-v-60cb334c {
+	display: flex;
+	align-items: center;
+	padding: 40rpx 30rpx;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.avatar.data-v-60cb334c {
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 60rpx;
+	margin-right: 30rpx;
+	border: 4rpx solid rgba(255, 255, 255, 0.3);
+}
+.user-details.data-v-60cb334c {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+.username.data-v-60cb334c {
+	font-size: 36rpx;
+	font-weight: 600;
+	color: #FFFFFF;
+	margin-bottom: 10rpx;
+}
+.user-desc.data-v-60cb334c {
+	font-size: 24rpx;
+	color: rgba(255, 255, 255, 0.8);
+}
+.edit-arrow.data-v-60cb334c {
+	font-size: 32rpx;
+	color: rgba(255, 255, 255, 0.8);
+}
+.stats-section.data-v-60cb334c {
+	background: #FFFFFF;
+	border-radius: 25rpx;
+	padding: 30rpx;
+	margin-bottom: 30rpx;
+	box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.08);
+}
+.stats-title.data-v-60cb334c {
+	font-size: 30rpx;
+	font-weight: 600;
+	color: #333333;
+	margin-bottom: 30rpx;
+}
+.stats-grid.data-v-60cb334c {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 30rpx;
+}
+.stat-item.data-v-60cb334c {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30rpx 20rpx;
+	background: #F8F9FF;
+	border-radius: 20rpx;
+}
+.stat-number.data-v-60cb334c {
+	font-size: 36rpx;
+	font-weight: 600;
+	color: #007AFF;
+	margin-bottom: 10rpx;
+}
+.stat-label.data-v-60cb334c {
+	font-size: 24rpx;
+	color: #666666;
+}
+.menu-section.data-v-60cb334c {
+	background: #FFFFFF;
+	border-radius: 25rpx;
+	overflow: hidden;
+	box-shadow: 0 4rpx 20rpx rgba(0, 0, 0, 0.08);
+}
+.menu-item.data-v-60cb334c {
+	display: flex;
+	align-items: center;
+	padding: 35rpx 30rpx;
+	border-bottom: 1rpx solid #F0F0F0;
+	transition: all 0.3s ease;
+}
+.menu-item.data-v-60cb334c:last-child {
+	border-bottom: none;
+}
+.menu-item.data-v-60cb334c:active {
+	background: #F8F9FF;
+}
+.menu-icon.data-v-60cb334c {
+	font-size: 36rpx;
+	margin-right: 25rpx;
+	width: 50rpx;
+}
+.menu-text.data-v-60cb334c {
+	flex: 1;
+	font-size: 30rpx;
+	color: #333333;
+}
+.menu-arrow.data-v-60cb334c {
+	font-size: 28rpx;
+	color: #CCCCCC;
+}
+

@@ -1,0 +1,173 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[1]!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js??clonedRuleSet-12[0].rules[0].use[2]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-12[0].rules[0].use[3]!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib/index.js??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!./src/pages/history/history.vue?vue&type=style&index=0&id=24bfa630&scoped=true&lang=css& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+.container.data-v-24bfa630 {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background: #F5F5F5;
+}
+.tab-bar.data-v-24bfa630 {
+	display: flex;
+	background: #FFFFFF;
+	border-bottom: 1rpx solid #E5E5E5;
+}
+.tab-item.data-v-24bfa630 {
+	flex: 1;
+	padding: 30rpx 0;
+	text-align: center;
+	position: relative;
+}
+.tab-item.active .tab-text.data-v-24bfa630 {
+	color: #007AFF;
+	font-weight: 600;
+}
+.tab-item.active.data-v-24bfa630::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	width: 60rpx;
+	height: 4rpx;
+	background: #007AFF;
+	border-radius: 2rpx;
+}
+.tab-text.data-v-24bfa630 {
+	font-size: 30rpx;
+	color: #666666;
+	transition: all 0.3s ease;
+}
+.content.data-v-24bfa630 {
+	flex: 1;
+	padding: 0 30rpx;
+}
+.empty-state.data-v-24bfa630 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 200rpx 0;
+}
+.empty-icon.data-v-24bfa630 {
+	font-size: 120rpx;
+	margin-bottom: 30rpx;
+	opacity: 0.5;
+}
+.empty-text.data-v-24bfa630 {
+	font-size: 32rpx;
+	color: #666666;
+	margin-bottom: 15rpx;
+}
+.empty-tip.data-v-24bfa630 {
+	font-size: 26rpx;
+	color: #999999;
+}
+.record-list.data-v-24bfa630 {
+	padding: 30rpx 0;
+}
+.record-item.data-v-24bfa630 {
+	background: #FFFFFF;
+	border-radius: 20rpx;
+	padding: 30rpx;
+	margin-bottom: 20rpx;
+	box-shadow: 0 2rpx 10rpx rgba(0, 0, 0, 0.05);
+}
+.record-header.data-v-24bfa630 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 25rpx;
+}
+.room-info.data-v-24bfa630 {
+	display: flex;
+	flex-direction: column;
+}
+.room-id.data-v-24bfa630 {
+	font-size: 30rpx;
+	font-weight: 600;
+	color: #333333;
+	margin-bottom: 8rpx;
+}
+.game-mode.data-v-24bfa630 {
+	font-size: 24rpx;
+	color: #666666;
+}
+.result-badge.data-v-24bfa630 {
+	padding: 8rpx 20rpx;
+	border-radius: 20rpx;
+	font-size: 24rpx;
+}
+.result-badge.win.data-v-24bfa630 {
+	background: #E8F5E8;
+	color: #52C41A;
+}
+.result-badge.lose.data-v-24bfa630 {
+	background: #FFF2F0;
+	color: #FF4D4F;
+}
+.record-content.data-v-24bfa630 {
+	border-top: 1rpx solid #F0F0F0;
+	padding-top: 25rpx;
+}
+.section-title.data-v-24bfa630 {
+	font-size: 26rpx;
+	color: #666666;
+	margin-bottom: 20rpx;
+	display: block;
+}
+.score-section.data-v-24bfa630 {
+	margin-bottom: 25rpx;
+}
+.my-score.data-v-24bfa630 {
+	display: flex;
+	align-items: center;
+}
+.score-label.data-v-24bfa630 {
+	font-size: 28rpx;
+	color: #666666;
+	margin-right: 10rpx;
+}
+.score-value.data-v-24bfa630 {
+	font-size: 28rpx;
+	font-weight: 600;
+	color: #666666;
+}
+.score-value.positive.data-v-24bfa630 {
+	color: #52C41A;
+}
+.score-value.negative.data-v-24bfa630 {
+	color: #FF4D4F;
+}
+.rank-label.data-v-24bfa630 {
+	font-size: 24rpx;
+	color: #999999;
+	margin-left: 10rpx;
+}
+.game-info.data-v-24bfa630 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 15rpx;
+	border-top: 1rpx solid #F0F0F0;
+}
+.game-time.data-v-24bfa630 {
+	font-size: 24rpx;
+	color: #999999;
+}
+.game-duration.data-v-24bfa630 {
+	font-size: 24rpx;
+	color: #999999;
+}
+.loading.data-v-24bfa630 {
+	display: flex;
+	justify-content: center;
+	padding: 30rpx 0;
+}
+.loading-text.data-v-24bfa630 {
+	font-size: 26rpx;
+	color: #999999;
+}
+
